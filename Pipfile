@@ -1,0 +1,26 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+coverage = "*"
+watchdog = "*"
+"flake8" = "*"
+faker = "*"
+v = {editable = true,version = "*"}
+
+[packages]
+flask = "*"
+flask-ckeditor = "*"
+flask-mail = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+flask-moment = "*"
+python-dotenv = "*"
+bootstrap-flask = "*"
+flask-login = "*"
+flask-debugtoolbar = "*"
+gunicorn = "*"
+"psycopg2" = "*"
+flask-migrate = "*"
